@@ -6,10 +6,10 @@
 
 From a terminal, execute your lisp interpreter on the file 'contemplate.lisp' e.g.
 
-    abcl --noinform --noinit --load contemplate.lisp --eval '(quit)'
-    ccl -n -l contemplate.lisp -e '(quit)'
-    clisp -q -norc -ansi contemplate.lisp
-    ecl -norc -load contemplate.lisp -eval '(quit)'
+    # abcl --noinform --noinit --load contemplate.lisp --eval '(quit)'
+    # ccl -n -l contemplate.lisp -e '(quit)'
+    # clisp -q -norc -ansi contemplate.lisp
+    # ecl -norc -load contemplate.lisp -eval '(quit)'
     sbcl --script contemplate.lisp
 
 ### Watching the Koans
@@ -20,9 +20,9 @@ whenever the koan files are modified, providing immediate feedback on changes
 to the koans. To run the MacOS version you need to have
 [`fswatch`](https://github.com/emcrisostomo/fswatch) installed. From a terminal:
 
-    $ cd lisp-koans
-    $ sh meditate-linux.sh # on Linux
-    $ sh meditate-macos.sh # on MacOS
+    cd lisp-koans
+    sh meditate-linux.sh sbcl # on Linux
+    # sh meditate-macos.sh # on MacOS
 
 ## Results of Contemplation
 
@@ -75,10 +75,10 @@ and paste code into the lisp command line REPL.
 
 To test the koans, execute your lisp interpreter on the file 'contemplate.lisp' e.g.
 
-    abcl --noinform --noinit --load test.lisp --eval '(quit)'
-    ccl -n -l test.lisp -e '(quit)'
-    clisp -q -norc -ansi test.lisp
-    ecl -norc -load test.lisp -eval '(quit)'
+    # abcl --noinform --noinit --load test.lisp --eval '(quit)'
+    # ccl -n -l test.lisp -e '(quit)'
+    # clisp -q -norc -ansi test.lisp
+    # ecl -norc -load test.lisp -eval '(quit)'
     sbcl --script test.lisp
 
 ## Quoting the Ruby Koans instructions
